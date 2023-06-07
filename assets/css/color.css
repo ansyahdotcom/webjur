@@ -7,19 +7,19 @@
 }
 
 .main-header.style-one .header-top .top-left li i{
-	color: #da2c46;
+	color: #E5C120;
 }
 
 .main-header.style-one .header-top .top-left li a:hover{
-  color: #da2c46;
+  color: #E5C120;
 }
 
 .main-header.style-one .header-top .top-right li a:hover{
-  color: #da2c46;
+  color: #E5C120;
 }
 
 .main-header.style-one .header-lower .menu-right-content .nav-btn:hover{
-  color: #da2c46;
+  color: #E5C120;
 }
 
 .main-header.style-one .header-lower .menu-right-content .search-btn button:hover{
@@ -36,19 +36,19 @@
 }
 
 .preloader-close{
-	background: #da2c46;
+	background: #E5C120;
 }
 
 .main-menu .navigation > li > ul > li > a:hover{
-  color: #da2c46;
+  color: #17265E;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a:hover{
-  color: #da2c46;
+  color: #17265E;
 }
 
 .main-menu .navigation li.dropdown .megamenu li a:hover{
-	color: #da2c46;
+	color: #17265E;
 }
 
 .side-menu .navigation li.current{
@@ -77,7 +77,7 @@
 
 .banner-section .owl-theme .owl-nav .owl-prev:hover,
 .banner-section .owl-theme .owl-nav .owl-next:hover{
-	background: #da2c46;
+	background: #E5C120;
 }
 
 .info-section .title-inner .year-box h2{
@@ -86,7 +86,7 @@
 
 .sticky-header .main-menu .navigation > li.current > a,
 .sticky-header .main-menu .navigation > li:hover > a{
-  color: #da2c46;
+  color: #E5C120;
 }
 
 .info-section .title-inner .title h2 span{
@@ -103,7 +103,7 @@
 }
 
 .feature-block-one .inner-box .lower-content .inner:before{
-	background: #da2c46;
+	background: #17265E;
 }
 
 .about-section .video-inner .video-btn a:before{
@@ -260,7 +260,7 @@
 
 .main-header.style-one .sticky-header .main-menu .navigation > li.current > a,
 .main-header.style-one .sticky-header .main-menu .navigation > li:hover > a{
-  color: #da2c46 !important;
+  color: #17265E !important;
 }
 
 .main-header.style-two .sticky-header .main-menu .navigation > li.current > a,
@@ -1319,7 +1319,7 @@
 }
 
 .scroll-top{
-	background: #da2c46;
+	background: #E5C120;
 }
 
 .scroll-top.style-two{

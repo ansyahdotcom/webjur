@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Program Studi D4 Destinasi Pariwisata</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="https://drive.google.com/uc?export=view&id=1eRVfyGsfAPfzFcEBVaLFuf7iUfTH7Pd2" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+		
+  <style>
+    /* GENERAL */
+body {
+  font-family: "Poppins", sans-serif;
+  color: #25292D;
+}
+
+p {
+  color: #25292D;
+  font-size: 16px;
+}
+
+li {
+  font-size: 16px;
+}
+
+a {
+  color: #25292D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+iframe {
+  display: block; 
+  margin: auto;
+  height: 400px;
+  width: 600px;
+}
+@media (max-width: 991px) {
+  iframe {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  iframe {
+    width: 90%;
+  }
+}
+
+@media (max-width: 575px) {
+  iframe {
+    width: 95%;
+  }
+}
+
+/* GENERAL */
+section {
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f3f5fa;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #602296;
+}
+
+.section-title h2::before {
+  background: #B3E9C7;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  left: calc(50% - 60px);
+  height: 2px;
+  bottom: 1px;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #c8702f;;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+/* ABOUT */
+.about {
+  padding: 60px 100px 60px 100px;
+}
+
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.about .content ul li+li {
+  margin-top: 10px;
+}
+
+.about .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #c8702f;
+  line-height: 1;
+}
+
+.about p {
+  color: #25292D;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .about {
+    padding: 40px 20px;
+  }
+
+  .about .content {
+    text-align: justify;
+  }
+
+  .about .content  li{
+    text-align: justify;
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    padding: 30px 10px;
+  }
+
+  .about .content {
+    text-align: justify;
+    /* padding-top: 30px; */
+  }
+
+  .about .content  li{
+    text-align: justify;
+  }
+
+  .about .content  p{
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .about {
+    padding: 20px 5px;
+  }
+
+  .about .content {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about .content  li{
+    text-align: justify;
+  }
+}
+
+/* VISI MISI */
+.visi {
+  padding: 60px 100px 60px 100px;
+}
+
+.visi .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #602296;
+}
+
+.visi .content p {
+  font-size: 16px;
+  color: #25292D;
+}
+
+.visi .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.visi .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.visi .content ul li+li {
+  margin-top: 10px;
+}
+
+.visi .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #c8702f;
+  line-height: 1;
+}
+
+.visi img {
+  border-color: #44355B;
+  border-width: 10px;
+  border-style: double;
+}
+
+@media (max-width: 1024px) {
+  .visi {
+    padding: 40px 20px;
+  }
+
+  .visi .content{
+    text-align: center;
+    padding: 0 0 0 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .visi .content  li{
+    text-align: justify;
+  }
+}
+
+@media (max-width: 992px) {
+  .visi {
+    padding: 30px 10px;
+  }
+
+  .visi .content {
+    padding-top: 30px;
+    padding: 0 0 0 0;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .visi .content  li{
+    text-align: justify;
+  }
+}
+
+@media (max-width: 575px) {
+  .visi {
+    padding: 20px 5px;
+  }
+
+  .visi img {
+    margin-bottom: 40px;
+  }
+
+  .visi .content{
+    text-align: center;
+    padding: 0 0 0 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .visi .content  li{
+    text-align: justify;
+  }
+}
+
+/* PROFIL LULUSAN */
+.lulusan {
+  padding: 60px 100px 60px 100px;
+}
+
+.lulusan .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #44355B;
+  font-family: "Poppins", sans-serif;
+}
+
+.lulusan .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lulusan .content ul li {
+  /* padding-bottom: 10px; */
+  padding-left: 28px;
+  position: relative;
+}
+
+.lulusan .content ul i {
+  /* font-size: 20px;
+  padding-right: 4px;
+  color: #c8702f; */
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #c8702f;
+  line-height: 1;
+}
+
+.lulusan .content ul li+li {
+  margin-top: 10px;
+}
+
+.lulusan .content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .lulusan {
+    padding: 40px 20px;
+  }
+
+  .lulusan .content  li{
+    text-align: justify;
+  }
+}
+
+@media (max-width: 992px) {
+  .lulusan {
+    padding: 30px 10px;
+  }
+
+  .lulusan .content  li{
+    text-align: justify;
+  }
+}
+
+@media (max-width: 575px) {
+  .lulusan {
+    padding: 20px 5px;
+  }
+
+  .lulusan .content  li{
+    text-align: justify;
+  }
+
+}
+
+/* KURIKULUM */
+.kurikulum {
+  padding: 60px 100px 60px 100px;
+}
+
+.kurikulum .content{
+  margin: 0px 150px 0px 150px;
+}
+
+@media (max-width: 1024px) {
+  .kurikulum {
+    padding: 40px 20px;
+  }
+
+  .kurikulum .content{
+  margin: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .kurikulum {
+    padding: 30px 10px;
+  }
+  
+  .kurikulum .content{
+  margin: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .kurikulum {
+    padding: 20px 5px;
+  }
+  
+  .kurikulum .content{
+  margin: 0px 0px 0px 0px;
+  }
+}
+
+/* STAFF */
+.staff {
+  padding: 60px 100px 60px 100px;
+}
+
+.staff .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.staff .member .pic {
+  overflow: hidden;
+  width: 180px;
+  height: 220px;
+  border-radius: 5%;
+}
+
+.staff .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.staff .member:hover {
+  transform: translateY(-10px);
+}
+
+.staff .member .member-info {
+  padding-left: 30px;
+}
+
+.staff .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #44355B;
+}
+
+.staff .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.staff .member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #cbd6e9;
+  bottom: 0;
+  left: 0;
+}
+
+.staff .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.staff .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.staff .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #eff2f8;
+}
+
+.staff .member .social a i {
+  color: #44355B;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.staff .member .social a:hover {
+  background: #25292D;
+}
+
+.staff .member .social a:hover i {
+  color: #fff;
+}
+
+.staff .member .social a+a {
+  margin-left: 8px;
+}
+
+@media (max-width: 992px) {
+  .staff {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .staff {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .staff {
+    padding: 40px 20px;
+  }
+}
+
+/* ARTIKEL */
+.article {
+  padding: 60px 100px 60px 100px;
+}
+
+.article .row {
+  padding-top: 40px;
+}
+
+.article .box {
+  padding: 20px 20px;
+  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  background: #fff;
+  border-top: 4px solid #fff;
+  border-radius: 5px;
+}
+
+.article .box img {
+  margin-bottom: 25px;
+  border-radius: 10px;
+  height: 180px;
+}
+
+.article h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #25292D;
+}
+
+.article .featured {
+  border-top-color: #c8702f;
+}
+
+.article h3:hover {
+  color: #551E85;
+}
+
+.article .card {
+  border-width: 0px;
+  --bs-card-spacer-x: 0rem;
+  --bs-card-spacer-y: 0rem;
+}
+
+.article .card .card-body {
+  height: 80%;
+}
+
+.article .card .card-footer {
+  background: transparent;
+  border-top: transparent;
+}
+
+@media (max-width: 992px) {
+  .article {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .article {
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .article {
+    padding: 20px 5px;
+  }
+}
+
+/* SOSMED */
+.sosmed {
+  padding: 60px 100px 10px 100px;
+}
+
+.sosmed .icon-box {
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: transparent;
+  text-align: center;
+}
+
+.sosmed .icon-box .icon {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.sosmed .icon-box .icon i {
+  color: #551E85;
+  font-size: 36px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.sosmed .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.sosmed .icon-box h4 a {
+  color: #44355B;
+  transition: ease-in-out 0.3s;
+}
+
+.sosmed .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.sosmed .icon-box:hover h4 a {
+  color: #c8702f;
+}
+
+.sosmed .icon:hover i {
+  color: #c8702f;
+}
+
+@media (max-width: 992px) {
+  .sosmed {
+    padding: 40px 20px;
+  }
+
+  .sosmed .icon-box {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sosmed {
+    padding: 30px 10px;
+  }
+
+  .sosmed .icon-box {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  .sosmed {
+    padding: 20px 5px;
+  }
+  .sosmed .icon-box {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+/* BACK TO TOP */
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #c8702f;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #e07d35;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+  </style>
+  <!-- <style>
+    .home-slider .owl-stage {
+      width: 1380px;
+      height: 760px;
+    }
+  </style> -->
+  <style>
+    .jumbotron {
+      background-image:url(assets/3.jpg);
+      background-size: cover;
+      height: 500px;
+      text-align: center;
+    }
+
+    .jumbotron .display-4 {
+      color: white;
+    }
+
+    .jumbotron p {
+      color: white;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- JUMBOTRON -->
+  <!-- <div class="jumbotron"> -->
+    <!-- <h1 class="display-4"><b> WELCOME TO DESPAR </b></h1> -->
+    <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
+    <!-- <hr class="my-4"> -->
+    <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+    <!-- <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p> -->
+  <!-- </div> -->
+  
+  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-80 h-50" src="assets/1.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-80 h-50" src="assets/2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-80 h-50" src="assets/3.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div> -->
+
+  <!-- <div class="home-slider owl-carousel js-fullheight">
+    <div class="slider-item js-fullheight" style="background-image:url(assets/1.jpg);">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+          <div class="col-md-12 ftco-animate">
+            <div class="text w-100 text-center">
+              <h2>Best Place to Travel</h2>
+              <h1 class="mb-3">Norway</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-item js-fullheight" style="background-image:url(assets/2.jpg);">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+          <div class="col-md-12 ftco-animate">
+            <div class="text w-100 text-center">
+              <h2>Best Place to Travel</h2>
+              <h1 class="mb-3">Japan</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-item js-fullheight" style="background-image:url(assets/3.jpg);">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+          <div class="col-md-12 ftco-animate">
+            <div class="text w-100 text-center">
+              <h2>Best Place to Travel</h2>
+              <h1 class="mb-3">Singapore</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <main id="main">
+    
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>ABOUT DESPAR</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Program Studi D4 Destinasi Pariwisata adalah jenjang pendidikan tinggi yang berperan mempersiapkan sumber daya manusia profesional pada bidang pengembangan dan pengelolaan destinasi pariwisata yang mencakup :
+            </p>
+            <ul>
+              <li><i class="fa fa-check"></i> pariwisata budaya dan kearifan lokal</li>
+              <li><i class="fa fa-check"></i> pariwisata berbasis masyarakat</li>
+              <li><i class="fa fa-check"></i> dampak pariwisata</li>
+              <li><i class="fa fa-check"></i> pariwisata digital</li>
+              <li><i class="fa fa-check"></i> pariwisata berkelanjutan</li>
+              <li><i class="fa fa-check"></i> hospitality</li>
+              <li><i class="fa fa-check"></i> tourism sociopreneurship</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Program Sarjana Terapan Destinasi Pariwisata merupakan program studi pada jenjang D4 yang memiliki masa studi dalam kurun waktu 8 semester atau 4 tahun dengan kegiatan perkuliahan yang totalnya mencapai 145 SKS dimana dari total tersebut terbagi untuk belajar teori sebanyak 69 SKS dan praktikum sebanyak 76 SKS . Selama 7 semester, mahasiswa melaksanakan pembelajaran baik teori maupun praktikum, dan selanjutnya di semester 8 mahasiswa difokuskan untuk menyelesaikan tugas akhir.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISI MISI -->
+    <section id="visi" class="visi section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row content">
+          <div class="col-lg-6">
+            <h3 class="mb-4"><strong>VISI</strong></h3>
+            <p>
+              Menjadi program studi vokasi bidang perencanaan dan pengembangan destinasi pariwisata yang unggul dan berdaya saing di tingkat Asia pada tahun 2035
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="mb-4"><strong>MISI</strong></h3>
+            <ul>
+              <li><i class="fa fa-check"></i>Menyelenggarakan program pendidikan vokasi di bidang pariwisata terapan yang profesional dan mengarah pada pembentukan lulusan yang berkarakter</li>
+              <li><i class="fa fa-check"></i>Melaksanakan penelitian dan pengabdian kepada masyarakat di bidang pariwisata yang bersifat terapan, sesuai dengan kebutuhan masyarakat, industri, dan pemangku kepentingan</li>
+              <li><i class="fa fa-check"></i>Menjalin kerja sama di tingkat nasional maupun internasional pada bidang pariwisata</li>
+              <li><i class="fa fa-check"></i>Melaksanakan sistem tata kelola program studi yang kredibel, transparan, akuntabel, bertanggung jawab dan adil</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- PROFIL LULUSAN -->
+    <section id="lulusan" class="lulusan">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <div class="section-title">
+              <h2>PROFIL LULUSAN</h2>
+            </div>
+            <ul>
+              <li><i class="fa fa-check"></i> Pengelola Daya Tarik Wisata</li>
+              <li><i class="fa fa-check"></i> Fasilitator Pengembangan Masyarakat / Community Developer</li>
+              <li><i class="fa fa-check"></i> Asisten Peneliti Pariwisata</li>
+              <li><i class="fa fa-check"></i> Wirausahawan di bidang kepariwisataan dan ekonomi kreatif</li>
+              <li><i class="fa fa-check"></i> Konsultan bidang kepariwisataan</li>
+              <li><i class="fa fa-check"></i> Pengembang destinasi pariwisata</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="https://drive.google.com/uc?export=view&id=1RN_PSpIGY3gOU1n2OcXOLIXccQGeCFuZ" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KURIKULUM -->
+    <section id="kurikulum" class="kurikulum section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>KURIKULUM</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-12">
+            <img src="https://bkp.polije.ac.id/img/Kurikulum%20Despar/kurikulum1.jpg" class="img-fluid" alt="">
+            <img src="https://bkp.polije.ac.id/img/Kurikulum%20Despar/kurikulum2.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR STAFF -->
+    <section id="staff" class="staff">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>OUR STAFF</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="https://bkp.polije.ac.id/img/BKP%20PICTURES%20n%20profil/foto%20dosen%20teknisi%20BKP/IMG_5198.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Mushthofa Kamal, S. Par., M. Par.</h4>
+                <span>Koordinator Program Studi | Dosen</span>
+                <p>NIP 199504122019031004</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="https://bkp.polije.ac.id/img/BKP%20PICTURES%20n%20profil/foto%20dosen%20teknisi%20BKP/IMG_0403.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Muhamad Farhan, S.Par., M.Sc</h4>
+                <span>Dosen</span>
+                <p>NIP 199003122019031014 </p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="https://bkp.polije.ac.id/img/BKP%20PICTURES%20n%20profil/foto%20dosen%20teknisi%20BKP/M.%20Zulkifli.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Muhammad Dzulkifli, S.Pd., M.Sc</h4>
+                <span>Dosen</span>
+                <p>NIP 198807242020121006 </p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="https://drive.google.com/uc?export=view&id=1ggLFVXWI2hVN5MEcBPMIbhzKoM9lfWEq" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Peni Arianita Wardani, S.E., M.Sc</h4>
+                <span>Dosen</span>
+                <p>NIP 199202272020122004 </p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="https://drive.google.com/uc?export=view&id=1pc6K08LjczYLiVvXko-YfENNi5mzoaiv" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Uystka Hikmatul NH, S.S., M.Sc</h4>
+                <span>Dosen</span>
+                <p>NIP 199503082022032017 </p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="https://drive.google.com/uc?export=view&id=1uRaBf0zLN2GnRAD6YsRV-pLKseQlrun9" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Milawaty, S.Hum., M.Hum</h4>
+                <span>Dosen</span>
+                <p>NIP 199403272022032015 </p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="https://bkp.polije.ac.id/img/BKP%20PICTURES%20n%20profil/foto%20dosen%20teknisi%20BKP/mujib.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Ihwan Huda Al Mujib, S.i.kom., M.i.kom</h4>
+                <span>Dosen</span>
+                <p>NIP 198907272018091001 </p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="https://bkp.polije.ac.id/img/BKP%20PICTURES%20n%20profil/foto%20dosen%20teknisi%20BKP/danur.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Degita Danur Suharsono, S.Pd., M.Pd</h4>
+                <span>Dosen</span>
+                <p>NIP 199304012018091001</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="https://drive.google.com/uc?export=view&id=114XX6NqhLuTxNjAb2pYcBsa4pKadMoNk" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Betty Pramudita Sari, S.E</h4>
+                <span>Admin Prodi</span>
+                <p>NIP 198707222014042001</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="https://drive.google.com/uc?export=view&id=1zoaqSY0FRVejH9ah2QgdYpWHFuZLWeDe" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>I.D.Murtadha Isnan, S.Par</h4>
+                <span>Teknisi</span>
+                <p>NIP </p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="https://drive.google.com/uc?export=view&id=1OrT5tIkzufQt2harosvq2gkYkF3r0HYp" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Rizky Andara Gama, A.Md.Par</h4>
+                <span>Teknisi</span>
+                <p>NIP </p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/team/MOHAMMAD AINUN ARDIANSYAH, S.Tr.Kom..jpg" class="img-fluid" alt=""></div>
+              <div class="member-info my-auto">
+                <h4>Mohammad Ainun Ardiansyah, S.Tr.Kom.</h4>
+                <span>Teknisi</span>
+                <p>NIP 19990417 </p>
+                <div class="social">
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""> <i class="fa fa-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFILE -->
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>PROFILE</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-12">
+            <iframe src="https://www.youtube.com/embed/e7SaE6UD-ok" title="YouTube video player" frameborder="0" ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTIKEL -->
+    <section id="article" class="article">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>ARTICLE</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="box featured">
+              <div class="card">
+                <div class="card-body" style="height: auto;">
+                  <img class="card-img-top" src="https://bkp.polije.ac.id/img/Berita/Juara%201%20Fotografi%20Andi/APF_0946.jpg" alt="">
+                  <a href="https://bkp.polije.ac.id/kabar-jurusan/mahasiswa-prodi-destinasi-pariwisata-meraih-juara-1-fotografi-pada-media-campus-competition-polytechnic-creative-festival-2022">
+                    <h3>Mahasiswa Prodi Destinasi Pariwisata meraih Juara 1 Fotografi</h3>
+                  </a>
+                </div>
+                <div class="card-footer">
+                  <p>9 October 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="box featured">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top" src="https://bkp.polije.ac.id/img/Berita/Juara%202%20Essay%20hasby/311706584_157668436900805_7359150373641655247_n.jpg" alt="">
+                  <a href="https://bkp.polije.ac.id/kabar-jurusan/mahasiswa-prodi-destinasi-pariwisata-meraih-juara-2-lomba-essay">
+                    <h3>Mahasiswa Prodi Destinasi Pariwisata Meraih Juara 2 Lomba Essay</h3>
+                  </a>
+                </div>
+                <div class="card-footer">
+                  <p>10 August 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="box featured">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top" src="https://drive.google.com/uc?export=view&id=1PV-2zhJDPiYBqpotLvx0Usc6WELgdcvW" alt="">
+                  <a href="https://bkp.polije.ac.id/kabar-jurusan/diesnatalis-program-studi-destinasi-pariwisata">
+                    <h3>Diesnatalis Program Studi Destinasi Pariwisata</h3>
+                  </a>
+                </div>
+                <div class="card-footer">
+                  <p>9 October 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL MEDIA -->
+    <section id="sosmed" class="sosmed section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>SOCIAL MEDIA</h2>
+        </div>
+        <div class="row content">
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="fa fa-linkedin"></i></div>
+              <h4><a href="">LinkedIn</a></h4>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="fa fa-instagram"></i></div>
+              <h4><a href="https://www.instagram.com/despar_polije/" target="_blank">Instagram</a></h4>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="fa fa-youtube"></i></div>
+              <h4><a href="https://www.youtube.com/channel/UCH6_lE1hBo0XSCPZPrqQSMA" target="_blank">Youtube</a></h4>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><img src="https://drive.google.com/uc?export=view&id=1udYBcpUy8v-HaA75LIAtw4qutA887qHD" alt=""></div>
+              <h4><a href="mailto:despar@polije.ac.id" target="_blank">Gmail</a></h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    (function($) {
+
+      "use strict";
+
+      var fullHeight = function() {
+
+        $('.js-fullheight').css('height', $(window).height());
+        $(window).resize(function(){
+          $('.js-fullheight').css('height', $(window).height());
+        });
+
+      };
+      fullHeight();
+
+      var carousel = function() {
+        $('.home-slider').owlCarousel({
+          loop:true,
+          autoplay: true,
+          margin:0,
+          animateOut: 'fadeOut',
+          animateIn: 'fadeIn',
+          nav:true,
+          dots: true,
+          autoplayHoverPause: false,
+          items: 1,
+          navText : ["<span class='ion-ios-arrow-back'></span>","<span class='ion-ios-arrow-forward'></span>"],
+          responsive:{
+            0:{
+              items:1
+            },
+            600:{
+              items:1
+            },
+            1000:{
+              items:1
+            }
+          }
+        });
+      };
+      carousel();
+    })(jQuery);
+  </script>
+  <!-- Template Main JS File -->
+  <script>
+    (function() {
+      "use strict";
+
+      // EASY SELECTOR HELPER
+      const select = (el, all = false) => {
+        el = el.trim()
+        if (all) {
+          return [...document.querySelectorAll(el)]
+        } else {
+          return document.querySelector(el)
+        }
+      }
+
+      // EASY EVENT LISTENER
+      const on = (type, el, listener, all = false) => {
+        let selectEl = select(el, all)
+        if (selectEl) {
+          if (all) {
+            selectEl.forEach(e => e.addEventListener(type, listener))
+          } else {
+            selectEl.addEventListener(type, listener)
+          }
+        }
+      }
+
+      // EASY ON SCROLL EVENT LISTENER
+      const onscroll = (el, listener) => {
+        el.addEventListener('scroll', listener)
+      }
+
+      // BACK TO TOP
+      let backtotop = select('.back-to-top')
+      if (backtotop) {
+        const toggleBacktotop = () => {
+          if (window.scrollY > 100) {
+            backtotop.classList.add('active')
+          } else {
+            backtotop.classList.remove('active')
+          }
+        }
+        window.addEventListener('load', toggleBacktotop)
+        onscroll(document, toggleBacktotop)
+      }
+
+      // ANIMATION
+      window.addEventListener('load', () => {
+        AOS.init({
+          duration: 1000,
+          easing: "ease-in-out",
+          once: true,
+          mirror: false
+        });
+      });
+
+    })()
+  </script>
+
+</body>
+
+</html>
