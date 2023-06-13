@@ -332,7 +332,12 @@ img {
 .sec-title{
   position: relative;
   display: block;
-  margin-bottom: 20px;
+}
+
+.sec-title h1 {
+  text-align: center;
+  font-weight: 800;
+  color: #53306C;
 }
 
 .sec-title h5{
@@ -528,6 +533,10 @@ img {
 
 .main-header.style-one .header-top .top-right li a:hover{
   
+}
+
+.main-header .social-links img {
+  height: 30px;
 }
 
 /** header-lower **/
@@ -1842,7 +1851,7 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   color: #fff;
-  font-size: 68px;
+  font-size: 50px;
   line-height: 70px;
   font-weight: 700;
   margin-bottom: 40px;
@@ -2174,7 +2183,7 @@ div#mCSB_1_container{
   position: relative;
   font-size: 110px;
   line-height: 94px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .profile-section .title-inner .year-box h3{
@@ -2185,13 +2194,13 @@ div#mCSB_1_container{
   font-weight: 400;
 }
 
-.profile-section .title-inner .title h2{
+.profile-section .title-inner .title h1{
   position: relative;
   display: block;
   font-size: 36px;
   line-height: 42px;
-  font-weight: 700;
-  color: #0a0a0a;
+  font-weight: 800;
+  color: #53306C;
 }
 
 .profile-section .title-inner .title h2 span{
@@ -2242,7 +2251,6 @@ div#mCSB_1_container{
   position: relative;
   padding-top: 30px;
   padding-bottom: 80px;
-  background-color: #BCCAFF;
 }
 
 h3{
@@ -2382,11 +2390,10 @@ h3{
 .feature-block-one .inner-box .lower-content .inner a span{
   position: relative;
   display: inline-block;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 15px;
   font-weight: 400;
   color: #fff;
-  border-bottom: 1px solid #fff;
 }
 
 .feature-block-one .inner-box .lower-content .inner a i{
@@ -2394,6 +2401,32 @@ h3{
   color: #fff;
   margin-left: 7px;
 }
+
+/** clients-section **/
+
+.clients-section{
+  position: relative;
+  padding: 50px 0px;
+}
+
+.clients-section .sec-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.clients-section .client-logo img{
+  display: block;
+  max-width: 70%;
+  max-height: 70%;
+  width: auto;
+  margin: 0 auto;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
 
 
 /** about-section **/
@@ -3663,40 +3696,6 @@ h4 a{
 .news-block-one .inner-box .lower-content .link a:hover span{
 
 }
-
-
-/** clients-section **/
-
-.clients-section{
-  position: relative;
-  padding: 80px 0px;
-}
-
-.clients-section .client-logo img{
-  display: block;
-  max-width: 100%;
-  width: auto;
-  margin: 0 auto;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-
-.clients-section .client-logo:hover img{
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  -o-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-}
-
 
 /** cta-section **/
 
