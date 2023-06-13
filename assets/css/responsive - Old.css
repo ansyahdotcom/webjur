@@ -612,7 +612,7 @@
     padding-bottom: 60px;
   }
 
-  .profile-section .title-inner{
+  .info-section .title-inner{
     margin-bottom: 30px;
   }
 
@@ -683,7 +683,6 @@
 
 }
 
-/* TAB SCREEN */
 
 @media only screen and (max-width: 767px){
 
@@ -713,20 +712,9 @@
     display: none !important;
   }
 
-  .profile-section,
+  .info-section,
   .about-section{
     padding: 70px 0px;
-  }
-
-  .profile-section .title-inner .title h2{
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    padding-top: 5vh;
-  }
-
-  .profile-section .text p {
-    text-align: justify;
   }
 
   .service-block-one .inner-box{
@@ -1084,17 +1072,18 @@
   .rtl .service-style-five .tabs-content .content-box{
     margin-right: 0px;
   }
+
   .main-footer.alternet-5 .footer-top{
     padding: 70px 0px 40px 0px;
   }
+
   .banner-carousel .content-box{
     max-height: 100% !important;
     min-height: 100% !important;
   }
+
+
 }
-
-
-/* MOBILE SCREEN */
 
 @media only screen and (max-width: 599px){
   
@@ -1115,16 +1104,16 @@
     line-height: 55px !important;
   }
 
-  .profile-section .title-inner .year-box{
+  .info-section .title-inner .year-box{
     position: relative;
     margin-bottom: 15px;
   }
 
-  .profile-section .title-inner{
+  .info-section .title-inner{
     padding: 0px !important;
   }
 
-  .profile-section .title-inner{
+  .info-section .title-inner{
     display: block;
   }
 
@@ -1205,15 +1194,9 @@
     padding: 0px;
   }
 
-  .profile-section .title-inner .title h2{
+  .info-section .title-inner .title h2{
     font-size: 30px;
     line-height: 36px;
-    text-align: center;
-    padding-top: 5vh;
-  }
-
-  .profile-section .text p {
-    text-align: justify;
   }
 
   .service-details-content .content-style-two{

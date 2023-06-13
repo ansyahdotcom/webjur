@@ -247,26 +247,26 @@ body.rtl .demo-ltr{
   padding-left: 250px;
 }
 
-.rtl .info-section .text-column .text{
+.rtl .profile-section .text-column .text{
   text-align: right;
 }
 
-.rtl .info-section .text-column .text a i{
+.rtl .profile-section .text-column .text a i{
   margin-right: 0px;
   margin-left: 10px;
 }
 
-.rtl .info-section .title-inner{
+.rtl .profile-section .title-inner{
   padding-left: 0px;
   padding-right: 250px;
 }
 
-.rtl .info-section .title-inner .year-box{
+.rtl .profile-section .title-inner .year-box{
   left: inherit;
   right: 0px;
 }
 
-.rtl .info-section .title-inner .title h2{
+.rtl .profile-section .title-inner .title h2{
   text-align: right;
 }
 

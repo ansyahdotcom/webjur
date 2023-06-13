@@ -80,7 +80,7 @@
 	background: #E5C120;
 }
 
-.profile-section .title-inner .year-box h2{
+.info-section .title-inner .year-box h2{
 	color: #da2c46;
 }
 
@@ -89,15 +89,15 @@
   color: #E5C120;
 }
 
-.profile-section .title-inner .title h2 span{
+.info-section .title-inner .title h2 span{
   color: #da2c46;
 }
 
-.profile-section .text-column .text a i{
+.info-section .text-column .text a i{
 	color: #da2c46;
 }
 
-.profile-section .text-column .text a:hover span{
+.info-section .text-column .text a:hover span{
 	color: #da2c46;
 	border-color: #da2c46;
 }
@@ -256,6 +256,11 @@
 
 .theme-btn.style-two{
   background: #f8952c;
+}
+
+.main-header.style-one .sticky-header .main-menu .navigation > li.current > a,
+.main-header.style-one .sticky-header .main-menu .navigation > li:hover > a{
+  color: #17265E !important;
 }
 
 .main-header.style-two .sticky-header .main-menu .navigation > li.current > a,
