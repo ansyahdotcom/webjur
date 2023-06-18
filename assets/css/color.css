@@ -213,28 +213,30 @@
 .cta-section .btn-box a:hover{
 	color: #da2c46;
 }
-  
-.main-footer .widget-section .logo-widget .info-list li a:hover{
-	color: #da2c46;
+
+/* footer */
+
+.footer .widget-section .contact .info-list li a:hover{
+	color: #e5c120;
 }
 
-.main-footer .widget-section .logo-widget .info-list li i{
-	color: #da2c46;
+.footer .widget-section .contact .info-list li i{
+	color: #e5c120;
 }
 
-.main-footer .widget-section .logo-widget .social-links li a:hover{
-  color: #da2c46;
+.footer .widget-section .contact .social-links li a:hover{
+  color: #e5c120;
 }
 
-.main-footer .widget-section .footer-widget .widget-title h4:before{
-	background: #da2c46;
+.footer .widget-section .footer-widget .widget-title h4:before{
+	background: #e5c120;
 }
 
-.main-footer .widget-section .links-widget .widget-content ul li a:hover{
-  color: #da2c46;
+.footer .widget-section .links-widget .widget-content ul li a:hover{
+  color: #e5c120;
 }
 
-.main-footer .widget-section .newsletter-widget .newsletter-form .form-group input:focus{
+.footer .widget-section .newsletter-widget .newsletter-form .form-group input:focus{
   border-color: #da2c46 !important;
 }
 
@@ -457,27 +459,27 @@
    color: #063c83;
 }
 
-.main-footer.alternet-2 .widget-section .logo-widget .info-list li i{
+.footer.alternet-2 .widget-section .contact .info-list li i{
  	color: #f8952c; 
 }
 
-.main-footer.alternet-2 .widget-section .logo-widget .info-list li a:hover{
+.footer.alternet-2 .widget-section .contact .info-list li a:hover{
 	color: #f8952c; 
 }
 
-.main-footer.alternet-2 .widget-section .logo-widget .social-links li a:hover{
+.footer.alternet-2 .widget-section .contact .social-links li a:hover{
    color: #f8952c; 
 }
 
-.main-footer.alternet-2 .widget-section .links-widget .widget-content ul li a:hover{
+.footer.alternet-2 .widget-section .links-widget .widget-content ul li a:hover{
 	color: #f8952c; 
 }
 
-.main-footer.alternet-2 .widget-section .footer-widget .widget-title h4:before{
+.footer.alternet-2 .widget-section .footer-widget .widget-title h4:before{
   background: #f8952c;
 }
 
-.main-footer.alternet-2 .widget-section .newsletter-widget .newsletter-form .form-group input:focus {
+.footer.alternet-2 .widget-section .newsletter-widget .newsletter-form .form-group input:focus {
    border-color: #f8952c !important;
 }
 
@@ -700,31 +702,31 @@
   color: #1c6ead;
 }
 
-.main-footer.alternet-3 .footer-upper .upper-inner .btn-box a:hover{
+.footer.alternet-3 .footer-upper .upper-inner .btn-box a:hover{
 	color: #1c6ead;
 }
 
-.main-footer.alternet-3 .widget-section .logo-widget .info-list li i{
+.footer.alternet-3 .widget-section .contact .info-list li i{
   color: #1c6ead;
 }
 
-.main-footer.alternet-3 .widget-section .logo-widget .info-list li a:hover {
+.footer.alternet-3 .widget-section .contact .info-list li a:hover {
 	color: #1c6ead;
 }
 
-.main-footer.alternet-3 .widget-section .logo-widget .social-links li a:hover {
+.footer.alternet-3 .widget-section .contact .social-links li a:hover {
   color: #1c6ead;
 }
 
-.main-footer.alternet-3 .widget-section .footer-widget .widget-title h4:before{
+.footer.alternet-3 .widget-section .footer-widget .widget-title h4:before{
 	background: #1c6ead;
 }
 
-.main-footer.alternet-3 .widget-section .links-widget .widget-content ul li a:hover {
+.footer.alternet-3 .widget-section .links-widget .widget-content ul li a:hover {
    color: #1c6ead;
 }
 
-.main-footer.alternet-3 .widget-section .newsletter-widget .newsletter-form .form-group input:focus{
+.footer.alternet-3 .widget-section .newsletter-widget .newsletter-form .form-group input:focus{
 	border-color: #1c6ead !important;
 }
 
@@ -867,15 +869,15 @@
   background: #38c179;
 }
 
-.main-footer.alternet-4 .widget-section .footer-widget .widget-title h4:before{
+.footer.alternet-4 .widget-section .footer-widget .widget-title h4:before{
   background: #38c179;
 }
 
-.main-footer.alternet-4 .widget-section .newsletter-widget .newsletter-form .form-group .theme-btn{
+.footer.alternet-4 .widget-section .newsletter-widget .newsletter-form .form-group .theme-btn{
 	background: #38c179;
 }
 
-.main-footer.alternet-4 .widget-section .newsletter-widget .newsletter-form .form-group input:focus{
+.footer.alternet-4 .widget-section .newsletter-widget .newsletter-form .form-group input:focus{
   border-color: #38c179 !important;
 }
 
