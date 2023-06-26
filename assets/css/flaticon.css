@@ -28,6 +28,7 @@
   font-style: normal;
 }
 
+.flaticon-check:before { content: "\f00c"; }
 .flaticon-crash:before { content: "\f100"; }
 .flaticon-claim:before { content: "\f101"; }
 .flaticon-safe:before { content: "\f102"; }

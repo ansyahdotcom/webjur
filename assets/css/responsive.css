@@ -396,7 +396,7 @@
     padding-right: 0px;
   }
 
-  .feature-block-two .inner-box{
+  .staff-block .inner-box{
     margin-bottom: 72px;
   }
 
@@ -934,9 +934,9 @@
 
   .funfact-style-three,
   .skills-section,
-  .project-style-three,
+  .staff-section,
   .team-style-two{
-    padding: 70px 0px;
+    padding: 70px 0px;  
   }
 
   .testimonial-section.alternet-3{
@@ -1315,7 +1315,7 @@
     line-height: 40px;
   }
 
-  .project-style-three .filters .filter-tabs li{
+  .staff-section .filters .filter-tabs li{
     margin: 0px 10px;
   }
 
