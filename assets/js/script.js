@@ -1,3 +1,12 @@
+// parallax
+$(window).scroll(function() {
+	var wscroll = $(this).scrollTop();
+	
+	$('.page-title h1').css({
+		'transform' : 'translate(0px, ' + wscroll/2.2 + '%)'
+	});
+}); 
+
 (function($) {
 	
 	"use strict";
@@ -116,30 +125,6 @@
 		wow.init();
 	}
 
-	//Contact Form Validation
-	if($('#contact-form').length){
-		$('#contact-form').validate({
-			rules: {
-				username: {
-					required: true
-				},
-				email: {
-					required: true,
-					email: true
-				},
-				phone: {
-					required: true
-				},
-				subject: {
-					required: true
-				},
-				message: {
-					required: true
-				}
-			}
-		});
-	}
-
 	//Fact Counter + Text Count
 	if($('.count-box').length){
 		$('.count-box').appear(function(){
@@ -230,36 +215,6 @@
 	// banner-carousel
 	if ($('.banner-carousel').length) {
         $('.banner-carousel').owlCarousel({
-            loop:true,
-			margin:0,
-			nav:true,
-			animateOut: 'fadeOut',
-    		animateIn: 'fadeIn',
-    		active: true,
-			smartSpeed: 1000,
-			autoplay: 6000,
-            navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:1
-                },
-                800:{
-                    items:1
-                },
-                1024:{
-                    items:1
-                }
-            }
-        });
-    }
-
-
-    // project-carousel-2
-	if ($('.project-carousel-2').length) {
-        $('.project-carousel-2').owlCarousel({
             loop:true,
 			margin:0,
 			nav:true,
@@ -582,26 +537,6 @@
 		},{accY: -50});
 
 	}
-
-
-	//Search Popup
-	if($('#search-popup').length){
-		
-		//Show Popup
-		$('.search-toggler').on('click', function() {
-			$('#search-popup').addClass('popup-visible');
-		});
-		$(document).keydown(function(e){
-	        if(e.keyCode === 27) {
-	            $('#search-popup').removeClass('popup-visible');
-	        }
-	    });
-		//Hide Popup
-		$('.close-search,.search-popup .overlay-layer').on('click', function() {
-			$('#search-popup').removeClass('popup-visible');
-		});
-	}
-
 
 	// page direction
 	function directionswitch() {

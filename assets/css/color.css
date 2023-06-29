@@ -2,55 +2,6 @@
 
 /** color-file **/
 
-.theme-btn.style-one{
-  background: #da2c46;
-}
-
-.main-header.style-one .header-top .top-left li i{
-	color: #E5C120;
-}
-
-.main-header.style-one .header-top .top-left li a:hover{
-  color: #E5C120;
-}
-
-.main-header.style-one .header-top .top-right li a:hover{
-  color: #E5C120; 
-}
-
-.main-header.style-one .header-lower .menu-right-content .nav-btn:hover{
-  color: #E5C120;
-}
-
-.main-header.style-one .header-lower .menu-right-content .search-btn button:hover{
-  color: #da2c46;
-}
-
-.search-popup .search-form fieldset input[type="submit"]{
-	background: #da2c46;
-}
-
-.search-popup .recent-searches li a:hover{
-	color: #da2c46;
-	border-color: #da2c46;
-}
-
-.preloader-close{
-	background: #E5C120;
-}
-
-.main-menu .navigation > li > ul > li > a:hover{
-  color: #17265E;
-}
-
-.main-menu .navigation > li > ul > li > ul > li > a:hover{
-  color: #17265E;
-}
-
-.main-menu .navigation li.dropdown .megamenu li a:hover{
-	color: #17265E;
-}
-
 .side-menu .navigation li.current{
   border-color: #da2c46;
 }
@@ -75,18 +26,8 @@
   	color: #da2c46;
 }
 
-.banner-section .owl-theme .owl-nav .owl-prev:hover,
-.banner-section .owl-theme .owl-nav .owl-next:hover{
-	background: #E5C120;
-}
-
 .profile-section .title-inner .year-box h2{
 	color: #da2c46;
-}
-
-.sticky-header .main-menu .navigation > li.current > a,
-.sticky-header .main-menu .navigation > li:hover > a{
-  color: #E5C120;
 }
 
 .profile-section .title-inner .title h2 span{
@@ -100,10 +41,6 @@
 .profile-section .text-column .text a:hover span{
 	color: #da2c46;
 	border-color: #da2c46;
-}
-
-.feature-block-one .inner-box .lower-content .inner:before{
-	background: #17265E;
 }
 
 .about-section .video-inner .video-btn a:before{
@@ -212,28 +149,6 @@
 
 .cta-section .btn-box a:hover{
 	color: #da2c46;
-}
-
-/* footer */
-
-.footer .widget-section .contact .info-list li a:hover{
-	color: #e5c120;
-}
-
-.footer .widget-section .contact .info-list li i{
-	color: #e5c120;
-}
-
-.footer .widget-section .contact .social-links li a:hover{
-  color: #e5c120;
-}
-
-.footer .widget-section .footer-widget .widget-title h4:before{
-	background: #e5c120;
-}
-
-.footer .widget-section .links-widget .widget-content ul li a:hover{
-  color: #e5c120;
 }
 
 .footer .widget-section .newsletter-widget .newsletter-form .form-group input:focus{
